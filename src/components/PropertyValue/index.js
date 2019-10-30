@@ -9,7 +9,7 @@ const PropertyValue = props => {
         {props.children}
       </GridItem>
       <GridItem xs={11} sm={11} md={11}>
-        {props.value}
+        {props.value || "Not Provided"}
       </GridItem>
     </GridContainer>
   );
